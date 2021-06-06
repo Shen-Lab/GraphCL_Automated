@@ -155,10 +155,10 @@ def main():
     print('Test score: {}'.format(test_curve[best_val_epoch]))
 
     if args.n_splits == 0:
-        with open('./logs/results_' + args.dataset + '_' + args.pretrain + '.log', 'a+') as f:
+        with open('./results_' + args.dataset + '_' + args.pretrain + '.log', 'a+') as f:
             f.write(str(valid_curve[best_val_epoch]) + ' ' + str(test_curve[best_val_epoch]) + '\n')
     else:
-        with open('./logs/results_' + args.dataset + '_' + args.pretrain + '_' + str(args.n_splits) + '.log', 'a+') as f:
+        with open('./results_' + args.dataset + '_' + args.pretrain + '_' + str(args.n_splits) + '.log', 'a+') as f:
             f.write(str(valid_curve[best_val_epoch]) + ' ' + str(test_curve[best_val_epoch]) + '\n')
 
 
