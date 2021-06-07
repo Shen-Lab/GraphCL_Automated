@@ -154,7 +154,7 @@ def main():
         aug_P = train(model, device, train_loader, optimizer, aug_P, args.gamma)
 
         if epoch % 10 == 0:
-            torch.save(model.state_dict(), './weights/' + args.dataset + '_graphcl_joao_' + str(args.gamma) + '_' + str(epoch) + '.pt')
+            torch.save(model.state_dict(), './weights/joao_' + str(args.gamma) + '_' + str(epoch) + '.pt')
 
     print('Finished training!')
 
