@@ -15,17 +15,15 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 
 ## Dependencies
 
-```
-torch-geometric>=1.6.0
-ogb==1.2.4
-```
+
+* [torch-geometric](https://github.com/rusty1s/pytorch_geometric) >= 1.6.0
+* [ogb](https://github.com/snap-stanford/ogb) == 1.2.4
+
 
 ## Experiments
 
 * Semi-supervised learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_TU) [[OGB]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_OGB)
-
 * Unsupervised representation learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/unsupervised_TU)
-
 * Transfer learning [[MoleculeNet and PPI]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/transferLearning_MoleculeNet_PPI)
 
 ## Citation
