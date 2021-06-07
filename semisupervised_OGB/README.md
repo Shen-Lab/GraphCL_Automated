@@ -12,9 +12,9 @@ python main_pretrain_graphcl_joao.py --gamma 0.01
 
 ```
 cd ./code
-./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_30.pt
+./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_${gamma}_30.pt
 cd ./ppa
-./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_100.pt
+./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_${gamma}_100.pt
 ```
 
 ```gamma``` is tuned from {0.01, 0.1, 1}. ```N_SPLIT``` can be 100 or 10 for 1% or 10% label rate, and ```RESULT_FILE``` is the file to store the results.
@@ -34,9 +34,9 @@ python main_pretrain_graphcl_joaov2.py --gamma 0.01
 
 ```
 cd ./code
-./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_30.pt
+./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_${gamma}_30.pt
 cd ./ppa
-./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_100.pt
+./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_${gamma}_100.pt
 ```
 
 ```gamma``` is tuned from {0.01, 0.1, 1}. ```N_SPLIT``` can be 100 or 10 for 1% or 10% label rate, and ```RESULT_FILE``` is the file to store the results.
