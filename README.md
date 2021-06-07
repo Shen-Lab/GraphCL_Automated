@@ -17,7 +17,7 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 
 ```
 torch-geometric>=1.6.0
-ogb<=1.2.4
+ogb==1.2.4
 ```
 
 ## Experiments
