@@ -12,7 +12,7 @@ python main_pretrain_graphcl_joao.py --gamma 0.01
 
 ```
 cd ./code
-./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_100.pt
+./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_30.pt
 cd ./ppa
 ./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_100.pt
 ```
@@ -34,7 +34,7 @@ python main_pretrain_graphcl_joaov2.py --gamma 0.01
 
 ```
 cd ./code
-./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_100.pt
+./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_30.pt
 cd ./ppa
 ./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_100.pt
 ```
