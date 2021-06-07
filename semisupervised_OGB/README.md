@@ -17,7 +17,7 @@ cd ./ppa
 ./run.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joao_0.01_100.pt
 ```
 
-```gamma``` is tuned from {0.01, 0.1, 1}.
+```gamma``` is tuned from {0.01, 0.1, 1}. ```N_SPLIT``` can be 100 or 10 for 1% or 10% label rate, and ```RESULT_FILE``` is the file to store the results.
 
 
 ### JOAOv2 Pre-Training: ###
@@ -39,7 +39,7 @@ cd ./ppa
 ./run_joaov2.sh ${N_SPLIT} ${RESULT_FILE} ./weights/joaov2_0.01_100.pt
 ```
 
-```gamma``` is tuned from {0.01, 0.1, 1}.
+```gamma``` is tuned from {0.01, 0.1, 1}. ```N_SPLIT``` can be 100 or 10 for 1% or 10% label rate, and ```RESULT_FILE``` is the file to store the results.
 
 
 ## Acknowledgements
