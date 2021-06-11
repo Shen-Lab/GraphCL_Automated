@@ -1,4 +1,4 @@
-# Graph Contrastive Learning with Automated
+# Graph Contrastive Learning Automated
 
 PyTorch implementation for [Graph Contrastive Learning Automated]() [[talk]]() [[poster]]() [[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf)
 
