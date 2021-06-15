@@ -1,6 +1,6 @@
 # Graph Contrastive Learning Automated
 
-PyTorch implementation for [Graph Contrastive Learning Automated]() [[talk]]() [[poster]]() [[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf)
+PyTorch implementation for [Graph Contrastive Learning Automated](https://arxiv.org/abs/2106.07594) [[talk]]() [[poster]]() [[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf)
 
 Yuning You, Tianlong Chen, Yang Shen, Zhangyang Wang
 
@@ -31,5 +31,12 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 If you use this code for you research, please cite our paper.
 
 ```
-TBD
+@misc{you2021graph,
+    title={Graph Contrastive Learning Automated},
+    author={Yuning You and Tianlong Chen and Yang Shen and Zhangyang Wang},
+    year={2021},
+    eprint={2106.07594},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
