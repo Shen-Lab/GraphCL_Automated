@@ -9,6 +9,17 @@ Yuning You, Tianlong Chen, Yang Shen, Zhangyang Wang
 
 In ICML 2021.
 
+-----------------------------------
+
+PyTorch implementation for [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations]()
+<!-- [[talk]](https://recorder-v3.slideslive.com/?share=39319&s=4366fe70-48a4-4f2c-952b-2a7ca56d48bf)
+[[poster]](https://yyou1996.github.io/files/icml2021_graphcl_automated_poster.pdf)
+[[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf) -->
+
+Yuning You, Tianlong Chen, Zhangyang Wang, Yang Shen
+
+In WSDM 2022.
+
 ## Overview
 
 In this repository, we propose a principled framework named joint augmentation selection (JOAO), to automatically, adaptively and dynamically select augmentations during [GraphCL](https://arxiv.org/abs/2010.13902) training.
@@ -25,9 +36,9 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 
 ## Experiments
 
-* Semi-supervised learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_TU) [[OGB]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_OGB)
-* Unsupervised representation learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/unsupervised_TU)
-* Transfer learning [[MoleculeNet and PPI]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/transferLearning_MoleculeNet_PPI)
+* Semi-supervised learning [[JOAO: TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_TU) [[JOAO: OGB]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_OGB) [[LP: TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_TU_LP) [[LP: OGB]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/semisupervised_OGB_LP)
+* Unsupervised representation learning [[JOAO: TU Datasets]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/unsupervised_TU)
+* Transfer learning [[JOAO: MoleculeNet and PPI]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/transferLearning_MoleculeNet_PPI) [[LP: MoleculeNet and PPI]](https://github.com/Shen-Lab/GraphCL_Automated/tree/master/transferLearning_MoleculeNet_PPI_LP)
 
 ## Citation
 
