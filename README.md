@@ -1,6 +1,8 @@
 # Graph Contrastive Learning Automated
 
-PyTorch implementation for [Graph Contrastive Learning Automated](https://arxiv.org/abs/2106.07594)
+PyTorch implementations of:
+
+**Automated selection of augmentations:** [Graph Contrastive Learning Automated](https://arxiv.org/abs/2106.07594)
 [[talk]](https://recorder-v3.slideslive.com/?share=39319&s=4366fe70-48a4-4f2c-952b-2a7ca56d48bf)
 [[poster]](https://yyou1996.github.io/files/icml2021_graphcl_automated_poster.pdf)
 [[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf)
@@ -9,9 +11,7 @@ Yuning You, Tianlong Chen, Yang Shen, Zhangyang Wang
 
 In ICML 2021.
 
------------------------------------
-
-PyTorch implementation for [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations]()
+**Generating augmentations with generative models:** [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702)
 <!-- [[talk]](https://recorder-v3.slideslive.com/?share=39319&s=4366fe70-48a4-4f2c-952b-2a7ca56d48bf)
 [[poster]](https://yyou1996.github.io/files/icml2021_graphcl_automated_poster.pdf)
 [[appendix]](https://yyou1996.github.io/files/icml2021_graphcl_automated_supplement.pdf) -->
@@ -23,9 +23,12 @@ In WSDM 2022.
 ## Overview
 
 In this repository, we propose a principled framework named joint augmentation selection (JOAO), to automatically, adaptively and dynamically select augmentations during [GraphCL](https://arxiv.org/abs/2010.13902) training.
-Sanity check shows that the selection aligns with previous "best practices", as shown in Figure 2.
+Sanity check shows that the selection aligns with previous "best practices", as shown in Figure 3.
+We further propose leveraging graph generative models to directly generate augmentations (LP) rather than relying on the prefabricated ones, as shown in Figure 2.
 
 ![](./joao.png)
+
+![](./LP.png)
 
 ## Dependencies
 
@@ -50,5 +53,14 @@ If you use this code for you research, please cite our paper.
   author={You, Yuning and Chen, Tianlong and Shen, Yang and Wang, Zhangyang},
   journal={arXiv preprint arXiv:2106.07594},
   year={2021}
+}
+
+@misc{you2022bringing,
+    title={Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations},
+    author={Yuning You and Tianlong Chen and Zhangyang Wang and Yang Shen},
+    year={2022},
+    eprint={2201.01702},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
 }
 ```
