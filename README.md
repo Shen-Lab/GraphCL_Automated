@@ -23,10 +23,14 @@ In WSDM 2022.
 ## Overview
 
 In this repository, we propose a principled framework named joint augmentation selection (JOAO), to automatically, adaptively and dynamically select augmentations during [GraphCL](https://arxiv.org/abs/2010.13902) training.
-Sanity check shows that the selection aligns with previous "best practices", as shown in Figure 3.
-We further propose leveraging graph generative models to directly generate augmentations (LP) rather than relying on the prefabricated ones, as shown in Figure 2.
+Sanity check shows that the selection aligns with previous "best practices", as shown in Figure 3 of [Graph Contrastive Learning Automated](https://arxiv.org/abs/2106.07594) (ICML 2021).  Corresponding folder names are $Setting_$Dataset. 
+
 
 ![](./joao.png)
+
+
+
+We further propose leveraging graph generative models to directly generate augmentations (LP) rather than relying on the prefabricated ones, as shown in Figure 2 of [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702)(WSDM 2022).  Corresponding folder names end with LP for Learned Priors: $Setting_$Dataset_LP.   
 
 ![](./LP.png)
 
