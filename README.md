@@ -30,7 +30,7 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 
 
 
-We further propose leveraging graph generative models to directly generate augmentations (GraphCL-LP with LP for Learned Priors) rather than relying on the prefabricated ones, as shown in Figure 2 of [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702) (WSDM 2022).  Corresponding folder names end with LP: $Setting_$Dataset_LP.   
+We further propose leveraging graph generative models to directly generate augmentations (LP for Learned Priors) rather than relying on the prefabricated ones, as shown in Figure 2 of [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702) (WSDM 2022).  Corresponding folder names end with LP: $Setting_$Dataset_LP.  Please note that although the study used GraphCL as the base model, leading to GraphCL-LP, the proposed LP framework is more general than that and can use other base models (such as BRGL in Appendix B).  
 
 ![](./LP.png)
 
