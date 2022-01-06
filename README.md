@@ -30,7 +30,7 @@ Sanity check shows that the selection aligns with previous "best practices", as 
 
 
 
-We further propose leveraging graph generative models to directly generate augmentations (LP) rather than relying on the prefabricated ones, as shown in Figure 2 of [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702)(WSDM 2022).  Corresponding folder names end with LP for Learned Priors: $Setting_$Dataset_LP.   
+We further propose leveraging graph generative models to directly generate augmentations (LP) rather than relying on the prefabricated ones, as shown in Figure 2 of [Bringing Your Own View: Graph Contrastive Learning without Prefabricated Data Augmentations](https://arxiv.org/abs/2201.01702) (WSDM 2022).  Corresponding folder names end with LP for Learned Priors: $Setting_$Dataset_LP.   
 
 ![](./LP.png)
 
