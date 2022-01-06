@@ -1,4 +1,4 @@
-# Graph Contrastive Learning Automated
+# Automate Graph Contrastive Learning Beyond Pre-Defined Augmentations
 
 PyTorch implementations of:
 
