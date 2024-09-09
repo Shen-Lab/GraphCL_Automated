@@ -1,3 +1,7 @@
+### Dataset
+Please follow the instruction described in https://github.com/snap-stanford/pretrain-gnns#dataset-download.
+
+
 ### JOAO Pre-Training: ###
 
 ```
